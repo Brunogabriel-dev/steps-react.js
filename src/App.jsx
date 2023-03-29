@@ -6,10 +6,7 @@ import "./components/Stepper.css"
 
 function Step() {
   const [step, setStep] = useState(1);
-
-
   const nomes = ["Dados Pessoais", "Adicionar Veículo", "Endereço", "Pagamento", "Confirmação"];
-
   
   const handleNext = () => {
     setStep(step + 1);

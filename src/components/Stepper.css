@@ -20,6 +20,14 @@
   margin-bottom: 20px;
 }
 
+.step-name {
+  color: orange;
+}
+
+.step-name + .step-name {
+  color: gray;
+}
+
 .step-header-item {
   font-size: 20px;
   font-weight: bold;
